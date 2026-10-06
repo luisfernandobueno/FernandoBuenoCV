@@ -1,4 +1,5 @@
 import './App.css'
+import profileImage from './img/IMG_20250430_155138.jpg'
 
 function App() {
   return (
@@ -50,7 +51,7 @@ function App() {
               <div className="rounded-3xl border border-white/10 bg-white/10 p-3 shadow-2xl backdrop-blur">
                 <div className="overflow-hidden rounded-2xl bg-slate-800">
                   <img
-                    src="/src/img/IMG_20250430_155138.jpg"
+                    src={profileImage}
                     alt="Fernando Bueno"
                     className="aspect-square w-full object-cover"
                   />
