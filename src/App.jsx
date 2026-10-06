@@ -51,7 +51,7 @@ function App() {
               <div className="rounded-3xl border border-white/10 bg-white/10 p-3 shadow-2xl backdrop-blur">
                 <div className="overflow-hidden rounded-2xl bg-slate-800">
                   <img
-                    src={profileImage}
+                    src={`${import.meta.env.BASE_URL}IMG_20250430_155138.jpg`}
                     alt="Fernando Bueno"
                     className="aspect-square w-full object-cover"
                   />
