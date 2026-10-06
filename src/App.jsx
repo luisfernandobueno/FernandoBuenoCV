@@ -1,5 +1,5 @@
-import './App.css'
-import profileImage from './img/IMG_20250430_155138.jpg'
+import './App.css'/* 
+import profileImage from './img/IMG_20250430_155138.jpg' */
 
 
 function App() {
